@@ -3,13 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background: #ffe;
-    font-size: 16px;
-	font-family: "Roboto", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: <weight>;
+    font-size: 40px;
+	font-family: "Be Vietnam Pro", sans-serif;
 	font-style: normal;
-	font-variation-settings:
-		"wdth" 100;
     color: #231F20;
     overflow: auto;
 }
@@ -35,9 +31,11 @@ a {
 
 /* Text Section */
 #text {
-    position: relative;
-    width: 350px;
-    height: 560px;
+	font-size: 40px;
+    position: absolute;
+    width: auto;
+    height: auto;
+	line-height: 1.8; /* More space between lines */
     left: 50px;
     top: 80px;
 }
@@ -50,24 +48,24 @@ a {
 
 /* Clock Box */
 #clock-box {
-    position: relative;
-    left: 60px;
-    top: 50px;
-    font-size: 28px;
+    position: absolute;
+    width: auto;
+    top: 800px;
+    font-size: 64px;
     display: none;
 }
 
 #clock-box a {
-    font-size: 28px;
+    font-size: 35px;
     text-decoration: none;
 }
 
 /* Clock */
 #clock {
-    margin-left: 48px;
 }
 
 #clock .digit {
+	font-weight: 900;
     font-size: 64px;
 }
 
