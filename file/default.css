@@ -35,10 +35,10 @@ a {
 
 /* Text Section */
 #text {
-    position: absolute;
-    width: 272px;
+    position: relative;
+    width: 350px;
     height: 560px;
-    left: 88px;
+    left: 50px;
     top: 80px;
 }
 
@@ -50,7 +50,7 @@ a {
 
 /* Clock Box */
 #clock-box {
-    position: absolute;
+    position: relative;
     left: 60px;
     top: 550px;
     font-size: 28px;
